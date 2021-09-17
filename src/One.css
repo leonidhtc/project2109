@@ -1,0 +1,21 @@
+/*
+ progress {
+    -webkit-appearance: none;
+  }
+  
+  ::-webkit-progress-value {
+    background-color: orange;
+  }
+
+  ::-webkit-progress-inner-element {
+    border: 3px solid black;
+  }
+*/  
+
+
+  
+  meter::-webkit-meter-even-less-good-value {
+    background: linear-gradient(to bottom, #f77, #d44 45%, #d44 55%, #f77);
+    height: 100%;
+    box-sizing: border-box;
+  }  
