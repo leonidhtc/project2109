@@ -1,21 +1,40 @@
-/*
- progress {
-    -webkit-appearance: none;
+  meter {
+    width: 7em;
   }
-  
-  ::-webkit-progress-value {
-    background-color: orange;
-  }
-
-  ::-webkit-progress-inner-element {
-    border: 3px solid black;
-  }
-*/  
-
-
   
   meter::-webkit-meter-even-less-good-value {
-    background: linear-gradient(to bottom, #f77, #d44 45%, #d44 55%, #f77);
+    background: linear-gradient(to bottom, #f77, #f77, #fcc 20%, #d44 45%, #d44 55%);
     height: 100%;
     box-sizing: border-box;
   }  
+
+  meter::-webkit-meter-suboptimum-value {
+    background: linear-gradient(to bottom, #fe7, #fe7, #ffc 20%, #db3 45%, #db3 55%);
+    height: 100%;
+    box-sizing: border-box;
+  } 
+  meter::-webkit-meter-optimum-value {
+    background: linear-gradient(to bottom,  #ad7, #ad7, #cea 20%, #7a3 45%, #7a3 55%);
+    height: 100%;
+    box-sizing: border-box;
+  } 
+
+
+  .CaptionEn {
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 2px 4px 5px 10px;
+    margin: 5px;
+  }
+
+  .CaptionRu {
+    font-size: calc( 1.7vmin);
+    color: rgb(50, 155, 240);
+    padding: 2px 4px 5px 10px;
+    margin: 5px;
+  }
+
+    .Pic {
+        width: 5em ;
+        height: auto;
+    }
