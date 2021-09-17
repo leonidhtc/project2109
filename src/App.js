@@ -23,7 +23,7 @@ function App() {
         <One captionRu='Показатель 4' plan='50' fact='10' />        
         <One captionEn='Indicator 5' plan='50' fact='90' />
         <One captionEn='Indicator 6' captionRu='Показатель 6' picture={picture} />
-        <One/><One/><One/><One plan='40' fact='10' captionRu='индикатор'/>
+        <One/><One/><One/><One plan='90' fact='85' captionRu='индикатор'/>
       </header>
     </div>
   );
