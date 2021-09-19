@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import picture from "./picture.png";
 import cards from "./screen.js"
 import "./App.css";
@@ -16,6 +15,7 @@ function App() {
       
 
         <div className='grid'>
+        
         <One captionEn={cards[0].captionEn}  captionRu={cards[0].captionRu} picture={cards[0].picture} />
         <One captionEn={cards[1].captionEn}  captionRu={cards[1].captionRu} picture={cards[1].picture} />
         <One captionEn='SMR' captionRu='СМР' plan='70' fact='60' picture="./SMR.png" />
