@@ -9,10 +9,11 @@ function App() {
   console.log(cards);
   return (
     <div className="App">
-      <header className="App-header">
+     <header className="App-header">
         <img src={picture} className="App-logo" alt="logo" />
         <p>Inception...</p>
         </header>
+      
 
         <div className='grid'>
         <One captionEn={cards[0].captionEn}  captionRu={cards[0].captionRu} picture={cards[0].picture} />
@@ -26,7 +27,7 @@ function App() {
         </div>
 
       
-      <p>Inception...</p>
+      <p>...</p>
     </div>
   );
 }

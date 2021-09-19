@@ -46,7 +46,7 @@
 .grid {
   display: grid;
   background-color: #1A2246;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   align-items: flex-end;
