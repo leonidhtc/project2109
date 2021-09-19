@@ -11,11 +11,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={picture} className="App-logo" alt="logo" />
+        <p>Inception...</p>
         
-        <p>
-          Inception...
-        </p>
-
+        <div className='grid'>
         <One captionEn={cards[0].captionEn}  captionRu={cards[0].captionRu} picture={cards[0].picture} />
         <One captionEn='Indicator 1' captionRu='Показатель 1' plan='50' fact='10' picture={logo} />
         <One captionEn='Indicator 2' captionRu='Показатель 2' plan='50' fact='49' />
@@ -24,6 +22,8 @@ function App() {
         <One captionEn='Indicator 5' plan='50' fact='90' />
         <One captionEn='Indicator 6' captionRu='Показатель 6' picture={picture} />
         <One/><One/><One/><One plan='90' fact='85' captionRu='индикатор'/>
+        </div>
+
       </header>
     </div>
   );
