@@ -5,14 +5,14 @@ let cards=
             "captionRu": "Показатель 1",
             "plan": "50",
             "fact": "10",
-            "picture": "./picture.png"
+            "picture": "./PIR.png"
         },
         {
             "captionEn": "Indicator 2",
             "captionRu": "Показатель 2",
             "plan": "50",
             "fact": "49",
-            "picture": "./picture.png"
+            "picture": "./Quality.png"
         },
         {
             "captionEn": "Indicator 3",

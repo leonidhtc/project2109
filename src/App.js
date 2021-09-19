@@ -17,7 +17,8 @@ function App() {
 
         <div className='grid'>
         <One captionEn={cards[0].captionEn}  captionRu={cards[0].captionRu} picture={cards[0].picture} />
-        <One captionEn='Indicator 1' captionRu='Показатель 1' plan='70' fact='60' picture={logo} />
+        <One captionEn={cards[1].captionEn}  captionRu={cards[1].captionRu} picture={cards[1].picture} />
+        <One captionEn='SMR' captionRu='СМР' plan='70' fact='60' picture="./SMR.png" />
         <One captionEn='Indicator 2' captionRu='Показатель 2' plan='50' fact='49' />
         <One captionEn='Indicator 3' captionRu='Показатель 3' plan='50' fact='50' picture={picture} />
         <One captionRu='Показатель 4' plan='50' fact='10' />        

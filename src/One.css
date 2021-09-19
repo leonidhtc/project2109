@@ -35,8 +35,9 @@
   }
 
     .Pic {
-        width: 5em ;
-        height: auto;
+        height: 4em;
+        width: auto;
+        max-width: 8em;
         padding: 1px;
         margin: 1px;
     }
