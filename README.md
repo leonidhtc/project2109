@@ -1,3 +1,8 @@
+Автоматически билдится и публикуется по адресу https://project2109.netlify.app/
+
+
+
+===
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
