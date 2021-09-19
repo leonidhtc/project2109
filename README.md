@@ -1,5 +1,90 @@
-Автоматически билдится и публикуется по адресу https://project2109.netlify.app/
+Исходные коды и настройки для сборки тут: https://github.com/leonidhtc/project2109  
+Автоматически билдится и публикуется по адресу: https://project2109.netlify.app/  
+  
+Ближайшие планы:
+ - Возможность редактирования JSON файла с индикаторами.
+ - JSON server отдельно от клиентской части, отдающий данные индикаторов.
+ - Внутренние (Zoomed) экраны индикаторов.
+ - Обработка событий для zoom-in и zoom-out на desktop и mobile платформах.
+ - CSS настройка стилей отображения.
 
+Индикатор - объект, имеющий английское название, русское название, изображение, значение показателя План, значение показателя Факт.  
+Множество индикаторов задаются массивом объектов в фотмате JSON.  
+Пример:
+
+        [
+            {
+                "captionEn": "Engineering",
+                "captionRu": "ПИР",
+                "plan": "80",
+                "fact": "85",
+                "picture": "./PIR.png"
+            },
+            {
+                "captionEn": "Procurement",
+                "captionRu": "МТО",
+                "plan": "70",
+                "fact": "69",
+                "picture": "./Quality.png"
+            },
+            {
+                "captionEn": "Construction",
+                "captionRu": "СМР",
+                "plan": "50",
+                "fact": "40",
+                "picture": "./SMR.png"
+            },
+            {
+                "captionEn": "Personnel",
+                "captionRu": "Персонал",
+                "plan": "80",
+                "fact": "80",
+                "picture": "./Personnel.png"
+            },
+            {
+                "captionEn": "Problems",
+                "captionRu": "Проблемы",
+                "plan": "50",
+                "fact": "50",
+                "picture": "./Problems.png"
+            },
+            {
+                "captionEn": "Project Team",
+                "captionRu": "КУП",
+                "plan": "70",
+                "fact": "75",
+                "picture": "./ProjectTeam.png"
+            },
+            {
+                "captionEn": "Budget",
+                "captionRu": "Финансы",
+                "plan": "70",
+                "fact": "75",
+                "picture": "./Budget.png"
+            },
+            {
+                "captionEn": "MCR",
+                "captionRu": "Штаб",
+                "plan": "70",
+                "fact": "75",
+                "picture": "./MCR.png"
+            },
+            {
+                "captionEn": "",
+                "captionRu": "",
+                "plan": "70",
+                "fact": "",
+                "picture": ""
+            },
+            {
+                "captionEn": "",
+                "captionRu": "",
+                "plan": "",
+                "fact": "",
+                "picture": ""
+            },
+
+        ]
 
 
 ===
