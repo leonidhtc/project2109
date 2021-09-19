@@ -12,10 +12,11 @@ function App() {
       <header className="App-header">
         <img src={picture} className="App-logo" alt="logo" />
         <p>Inception...</p>
-        
+        </header>
+
         <div className='grid'>
         <One captionEn={cards[0].captionEn}  captionRu={cards[0].captionRu} picture={cards[0].picture} />
-        <One captionEn='Indicator 1' captionRu='Показатель 1' plan='50' fact='10' picture={logo} />
+        <One captionEn='Indicator 1' captionRu='Показатель 1' plan='70' fact='60' picture={logo} />
         <One captionEn='Indicator 2' captionRu='Показатель 2' plan='50' fact='49' />
         <One captionEn='Indicator 3' captionRu='Показатель 3' plan='50' fact='50' picture={picture} />
         <One captionRu='Показатель 4' plan='50' fact='10' />        
@@ -24,7 +25,8 @@ function App() {
         <One/><One/><One/><One plan='90' fact='85' captionRu='индикатор'/>
         </div>
 
-      </header>
+      
+      <p>Inception...</p>
     </div>
   );
 }

@@ -21,20 +21,22 @@
 
 
   .CaptionEn {
-    font-size: calc(10px + 2vmin);
+    font-size: calc(3px + 1em);
     color: white;
-    padding: 2px 4px 5px 10px;
-    margin: 5px;
+    padding: 1px;
+    margin: 1px;
   }
 
   .CaptionRu {
-    font-size: calc(8px + 1.7vmin);
+    font-size: calc(3px + 0.7em);
     color: rgb(50, 155, 240);
-    padding: 2px 4px 5px 10px;
-    margin: 5px;
+    padding: 1px;
+    margin: 1px;
   }
 
     .Pic {
         width: 5em ;
         height: auto;
+        padding: 1px;
+        margin: 1px;
     }

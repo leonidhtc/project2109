@@ -1,3 +1,4 @@
+import React from 'react'
 import "./One.css";
 
 function One(props) {
@@ -11,7 +12,7 @@ function One(props) {
     <div className="One">
 
       { props.picture &&
-        <img className="Pic" src={props.picture} height='200' alt="pic" /> }
+        <img className="Pic" src={props.picture}  alt="pic" /> }
       
       { captionEn &&
       <p className="CaptionEn">{captionEn}</p> }
