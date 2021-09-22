@@ -1,5 +1,5 @@
-let cards= 
-[
+{
+    "cards": [
     {
         "captionEn": "Engineering",
         "captionRu": "ПИР",
@@ -69,8 +69,7 @@ let cards=
         "plan": "",
         "fact": "",
         "picture": ""
-    },
-
-]
-
-export default cards;    
+    }
+    ]
+}
+ 
